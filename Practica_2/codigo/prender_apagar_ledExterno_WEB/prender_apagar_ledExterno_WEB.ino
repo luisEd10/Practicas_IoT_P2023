@@ -1,7 +1,7 @@
 #include <WiFi.h>
 #include <WiFiClient.h>
-const char* ssid = "Mi_WiFi";
-const char* password = "Mi_Password";
+const char* ssid = "IoT";
+const char* password = "1t3s0IoT23";
 WiFiServer server(80);
 //Usar el pin 15 GPIO
 #define LED 15
@@ -50,8 +50,7 @@ void loop() {
     digitalWrite(LED, LOW);
     estado = "Apagado";
    }
-  /////////////////////////////////////////////
-  / Página WEB. ////////////////////////////
+  ///////// Página WEB. ////////////////////////////
   client.println("HTTP/1.1 200 OK");
   client.println("Content-Type: text/html");
   client.println(""); // Importante.
@@ -60,7 +59,7 @@ void loop() {
   client.println("<head><meta charset=utf-8></head>");
   client.println("<body><center><font face='Arial'>");
   client.println("<h1>Servidor web con ESP32.</h1>");
-  client.println("<h1>Guadalupe Torres</h1>");
+  client.println("<h1>Luis Eduardo Bruno Selvas</h1>");
   client.println("<h2><font color='#009900'>Webserver 1.0</font></h2>");
   client.println("<h3>Práctica boton</h3>");
   client.println("<br><br>");

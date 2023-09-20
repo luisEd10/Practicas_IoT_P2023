@@ -1,7 +1,7 @@
 #include <WiFi.h>
 #include <WiFiClient.h>
-const char* ssid = "HUAWEI P40 lite";
-const char* password = "cda39f4c77df";
+const char* ssid = "IoT";
+const char* password = "1t3s0IoT23";
 WiFiServer server(80);
 //Se tiene un LED incorporado en terminal 2, se puede usar otro GPIO
 #define LED 2
