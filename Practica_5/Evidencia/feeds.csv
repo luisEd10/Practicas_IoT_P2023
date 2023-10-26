@@ -1,0 +1,18 @@
+created_at,entry_id,field1,field2,latitude,longitude,elevation,status
+2023-10-25T19:24:05-06:00,1,28.90000,22.66,,,,Temperatura Normal
+2023-10-25T19:24:28-06:00,2,29.30000,22.66,,,,Temperatura Normal
+2023-10-25T19:24:51-06:00,3,30.80000,22.66,,,,Temperatura Relativamente Alta
+2023-10-25T19:25:14-06:00,4,31.30000,22.66,,,,Temperatura Relativamente Alta
+2023-10-25T19:25:37-06:00,5,30.80000,22.66,,,,Temperatura Relativamente Alta
+2023-10-25T19:26:00-06:00,6,30.80000,22.66,,,,Temperatura Relativamente Alta
+2023-10-25T19:26:23-06:00,7,30.20000,22.66,,,,Temperatura Relativamente Alta
+2023-10-25T19:27:04-06:00,8,29.80000,22.66,,,,Temperatura Normal
+2023-10-25T19:27:27-06:00,9,29.80000,22.66,,,,Temperatura Normal
+2023-10-25T19:27:49-06:00,10,29.30000,22.66,,,,Temperatura Normal
+2023-10-25T19:28:12-06:00,11,29.30000,22.66,,,,Temperatura Normal
+2023-10-25T19:28:35-06:00,12,29.30000,22.66,,,,Temperatura Normal
+2023-10-25T19:28:57-06:00,13,29.30000,22.66,,,,Temperatura Normal
+2023-10-25T19:29:20-06:00,14,28.90000,22.66,,,,Temperatura Normal
+2023-10-25T19:29:43-06:00,15,28.90000,22.66,,,,Temperatura Normal
+2023-10-25T19:30:06-06:00,16,28.90000,22.66,,,,Temperatura Normal
+2023-10-25T19:30:29-06:00,17,28.90000,22.66,,,,Temperatura Normal
