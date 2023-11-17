@@ -2,12 +2,13 @@
 * Include Libraries
 ****************************************/
 #include <WiFi.h>
+
 #include <PubSubClient.h>
 /****************************************
 * Define Constants
 ****************************************/
-#define WIFISSID "IoT" //WIFI SSID aqui
-#define PASSWORD "1t3s0IoT23" // WIFI pwd
+#define WIFISSID "MEGACABLE-D3A2" //WIFI SSID aqui
+#define PASSWORD "EzsDQEtr" // WIFI pwd
 #define TOKEN "BBFF-oRy6zfAfimZZiypBGYdCdlGJhVp8Ml" // Ubidots TOKEN ID el mismo que usamos en clase lo sacan de Ubidtos
 #define MQTT_CLIENT_NAME "123456AbCde" //ID del cliente, 8 a 12 chars alfanumericos (ASCII), debe ser random y unico dif a otros devices
 #define VARIABLE_LABEL_temp "temperatura" // Variable Temperatura
